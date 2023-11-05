@@ -30,9 +30,9 @@ function preload(){
 
 
 function setup() {
-  createCanvas(base.width/2, base.height/2);
+  createCanvas(base.width, base.height);
   colorMode(HSB, 360, 100, 100, 100);
-  frameRate(8);
+  frameRate(2);
 }
 
 function draw() {
@@ -122,4 +122,8 @@ function draw() {
     alp2 = 100;
     }
   }
+}
+
+function mousePressed(){
+  saveCanvas('SedimentPhotos'+frameCount);
 }
