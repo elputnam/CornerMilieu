@@ -32,7 +32,7 @@ function preload(){
 function setup() {
   createCanvas(base.width/2, base.height/2);
   colorMode(HSB, 360, 100, 100, 100);
-  frameRate(8);
+  frameRate(7);
 }
 
 function draw() {
